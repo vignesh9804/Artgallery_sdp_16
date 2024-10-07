@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap");
+
+.addhotel-div{
+    margin: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+}
+
+.addhotel-input{
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 3px;
+    outline: none;
+    padding: 1rem;
+    margin: 1rem;
+    width: 70%;
+    background-color: white;
+    overflow: visible;
+}
+.save{
+    background-color: rgb(36, 197, 161);
+    border: none;
+    outline: none;
+    color: aliceblue;
+    cursor: pointer;
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+.flex-div{
+    display: flex;
+}
+
+
+.profile_name_label_tag{
+    margin-left: 20px;
+}
+.test{
+    
+    width: 70%;
+}
+.test_2{
+    background-color: back;
+}

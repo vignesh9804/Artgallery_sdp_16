@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap");
+
+.home_img{
+    height: 90%;
+    width: 90%;
+}
+
+.main_heading{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 55px;
+}
+.home_main_div,.events_div{
+    background-color: #f2f2f2;
+}
+.register_button_home{
+    margin-left: 15px;
+}
+.exibtions_heading{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.exibtions_images_div{
+    margin-bottom: 50px;
+}
+.card_img{
+    height: 220px;
+    width: 250px;
+}
+.card_exibition_heading{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.card_exibition_date{
+    color: rgb(183, 160, 26);
+}
+
+.events_heading{
+    margin-top: 50px;
+}
+.events_div_content_outer{
+    padding: 10px;
+}
+.img_events_tag{
+    height: 100%;
+}
+.events_div_content_inner{
+    height: 24rem;
+}
+.content_events_div{
+    font-family: "Times New Roman", Times, serif;
+    padding: 30px;
+    margin-left: 50px;
+}
+.content_event_div_2{
+    margin-left: 0px;
+    margin-right: 50px;
+}
+.date_event_tag{
+    color: rgb(183, 160, 26);;
+}
+.hr_tag{
+    width: 150px;
+    margin-left: 20px;
+}
+.event_image_description{
+    font-size: 20px;
+}
+.featured_class{
+    margin-top: 60px;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 50px;
+
+}
+.featured_para1{
+    margin-top: 15px;
+    font-size: 25px;
+    text-align: start;
+}
+.featured_para2{
+    font-size: 20px;
+}
+.featured_img_1{
+    height: 80%;
+    width: 70%;
+}
+
+.contact_div{
+    
+    padding: 20px;
+    /* color: white; */
+}
+.back_tag{
+    color: black;
+    text-decoration: none;
+}
+.social_icon{
+    margin-right: 10px;
+}
+.contact_address_details{
+    margin-left: 30px;
+}

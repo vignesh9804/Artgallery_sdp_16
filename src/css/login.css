@@ -1,0 +1,36 @@
+.temp_div{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.full_outer_div_login{
+    height: 100vh;
+}
+.login_img{
+    height: 70%;
+    margin-top: 30px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.outer_div_login{
+    padding: 60px;
+    padding-right: 100px;
+}
+.outer_div_register{
+    padding-right: 0px;
+}
+.signup_div{
+    margin-left: 50px;
+}
+.login_btn{
+    color: white;
+}
+.login_register_anchor{
+    text-decoration: none;
+    text-align: start;
+    margin-top: 10px;
+}
+.login_image_register{
+    margin-left: 80px;
+}
