@@ -58,10 +58,10 @@ const  Register = () => {
           const url = await image();
           data.img = url;
       }
-          axios.post('http://localhost:5000/register', data).then( (res) =>{
+          await axios.post('http://localhost:8081/user', data).then( (res) =>{
             console.log(res.data);
             if(res.data){
-              navigate('/');
+              navigate('/verify/'+res.data.message);
             }
             else {
               alert('THIS USERNAME IS AVAILABLE');

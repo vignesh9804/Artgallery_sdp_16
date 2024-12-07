@@ -1,0 +1,29 @@
+.cart-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+    height: 600px;
+  }
+  
+  .cart-art-img {
+    width: 400px;
+    height: 80%;
+    margin-right: 20px;
+  }
+  .details_div{
+    max-width: 600px;
+    align-self: flex-start;
+    margin-top: 50px;
+    text-align: start;
+  }
+
+  .back_button{
+    align-self: flex-start;
+  }

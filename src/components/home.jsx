@@ -1,8 +1,11 @@
 import React from 'react'
 import '../css/home.css';
-const home = () => {
+import Nav from './navbar'
+
+const Home = () => {
   return (
     <div >
+        <Nav/>
       <div className="container-fluid home_main_div mt-5" id="homemain">
         <div className="row">
             <div className='col-4 d-flex flex-column justify-content-center'>
@@ -293,4 +296,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home

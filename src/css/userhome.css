@@ -1,0 +1,29 @@
+.user_home_img{
+    width: 100%;
+}
+.main-home-page{
+    padding: 10px;
+}
+.arts-shop-sub-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.art-div{
+    height: 350px;
+    width: 300px;
+    /* border: solid 2px black; */
+    padding: 10px;
+    overflow: hidden;
+}
+.arts-image{
+    height: 250px;
+    width: 100%;
+}
+
+.general-art{
+    text-align: start;
+}
+.arts_heading{
+    font-size: 40px;
+}
