@@ -13,7 +13,7 @@ const Login = () => {
     e.preventDefault();
 
     try{
-      var response = await axios.post('http://localhost:8081/user/login', data);
+      var response = await axios.post('https://artgallerybackend-production-1fb5.up.railway.app/user/login', data);
 
       navigate(response.data.role === 'user' ? '/shop' : '/admin');
       alert("Login Success");
