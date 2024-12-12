@@ -58,7 +58,7 @@ const  Register = () => {
           const url = await image();
           data.img = url;
       }
-          await axios.post('http://localhost:8081/user', data).then( (res) =>{
+          await axios.post('https://artgallerybackend-production-1fb5.up.railway.app/user', data).then( (res) =>{
             console.log(res.data);
             if(res.data){
               navigate('/verify/'+res.data.message);

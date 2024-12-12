@@ -17,7 +17,7 @@ const HomePage = () => {
 
   const renderCategories = async () => {
     try {
-      var response = await axios.get('http://localhost:8081/category');
+      var response = await axios.get('https://artgallerybackend-production-1fb5.up.railway.app/category');
       setcategory(response.data);
     } catch (error) {
       console.log(error);
@@ -26,7 +26,7 @@ const HomePage = () => {
 
   const renderArts = async () => {
     try {
-      var response = await axios.get('http://localhost:8081/art');
+      var response = await axios.get('https://artgallerybackend-production-1fb5.up.railway.app/art');
       setarr(response.data);
     } catch (error) {
       console.log(error);

@@ -22,7 +22,7 @@ const Additem = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("http://localhost:8081/art", itemData, {
+            const response = await axios.post("https://artgallerybackend-production-1fb5.up.railway.app/art", itemData, {
                 headers: {
                     "Content-Type": "application/json",
                 },

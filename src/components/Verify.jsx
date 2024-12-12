@@ -19,7 +19,7 @@ const Verify = () => {
         setloading(true);
         try{
             data['id'] = param.id;
-            var res = await axios.post('http://localhost:8081/user/verify', data);
+            var res = await axios.post('https://artgallerybackend-production-1fb5.up.railway.app/user/verify', data);
             console.log(res);
             navigate('/login');
           }
@@ -35,7 +35,7 @@ const Verify = () => {
         data['id'] = param.id;
         try{
             data['id'] = param.id;
-            var res = await axios.post('http://localhost:8081/user/verify', data);
+            var res = await axios.post('https://artgallerybackend-production-1fb5.up.railway.app/user/verify', data);
             console.log(res);
           }
           catch(error){
